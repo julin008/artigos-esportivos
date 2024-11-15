@@ -8,18 +8,31 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <header>
-    <div id="div-header">
-        <h1 style="font-style: italic; font-weight: 200;">FLEX</h1><h1 id="fit">FIT</h1>
-        <input type="text" class="search-input" placeholder="O que você procura?">
-        <button class="search-input">
-            <img src="lupa.png" class="search-icon">
-        </button>
+    <img src="logo.png" id="logo" alt="logotipo da flexfit">
+    <div class="input-box">
+        <form action="#">
+            <div class="box">
+                <input type="text" class="input" placeholder="Digite aqui o que você procura">
+                <button class="button">
+                    <img src="lupa.png" class="image">
+                </button>
+            </div>
+        </form>
     </div>
     <nav>
-
+        <h1>Início</h1>
+        <h1>Sobre</h1>
+        <h1>Nossos produtos</h1>
+        <h1>Contato</h1>
+        <h1>Blog</h1>
     </nav>
 </header>
 <body>
     
 </body>
+<script>
+    let input = document.querySelector('.input');
+    let button = document.querySelector('.button');
+    let image = document.querySelector('.image');
+</script>
 </html>
