@@ -1,7 +1,9 @@
-body{
+body {
     margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #2B2D42;
 }
-header{
+header {
     background-color: #EF233C;
     width: 100%;
     height: 100px;
@@ -9,47 +11,155 @@ header{
     justify-content: center;
     align-items: center;
 }
-.input_box{
+.input-box {
     width: 100%;
+    display: flex;
+    justify-content: center; 
 }
-.box{
-    width: 100%;
+.box {
+    width: 600px;
     background-color: #EDF2F4;
     display: flex;
     align-items: center;
     justify-content: space-between;
     border-radius: 12px;
+    padding: 10px;
 }
-.box input{
-    width: 600px;
+.box input {
+    width: 80%;
     background-color: #EDF2F4;
     outline: none;
     border: none;
-    font-family: poppins, arial;
     font-size: 15px;
-    padding-left: 22px;
+    padding-left: 15px;
     color: #A2A5A7;
     font-weight: 500;
 }
-.box .button{
+.box .button {
     background: transparent;
     margin: 0px 12px;
     padding: 6px;
-    height: 60px;
+    height: 40px;
     border: none;
 }
-#logo{
-    max-width:250px;
-    max-height:250px;
+#logo {
+    max-width: 250px;
+    max-height: 250px;
     width: auto;
     height: auto;
 }
-img{
+nav {
+    background-color: #EDF2F4;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+nav h1 {
+    font-weight: 500;
+    margin: 0 30px;
+    color: #2B2D42;
+    font-size: 18px;
+    cursor: pointer;
+}
+nav h1:hover {
+    color: #EF233C;
+}
+nav h1 {
+    display: inline-block;
+    transition: color 0.3s ease-in-out;
+}
+.lupa {
     max-width: 25px;
     max-height: 25px;
     width: auto;
     height: auto;
 }
-nav{
+.mulher-tenis{
+    width: 999px;
+    height: 900px;
+    object-fit: cover;
+    margin: 0;
+}
+.mulher-pulando{
+    width: 915px;
+    height: 900px;
+    object-fit: cover;
+    margin-right: 0;
+}
+main {
     display: flex;
+    flex-direction: column;
+    padding-right: 0;
+    position: relative;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+
+.mulher-tenis, .mulher-pulando {
+    width: 100%;
+    max-width: 1000px;
+    object-fit: cover;
+    margin: 0;
+}
+
+.texto-frente-imagens {
+    position: absolute;
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: bold;
+    margin-left: 120px;
+    margin-top: 320px;
+}
+
+.texto-frente-imagens2 {
+    position: absolute;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 120px;
+    margin-top: 370px;
+}
+.sobre-nos {
+    padding: 40px;
+    margin-top: 120px;
+    margin-left: 120px;
+    height: auto;
+}
+.sobre-nos h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #EF233C;
+}
+.sobre-nos h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.sobre-nos-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap; 
+}
+.text-content {
+    width: 35%;
+}
+.sobre-nos p {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 100;
+    line-height: 1.6;
+    text-align: justify;
+}
+.mulher-bolsa {
+    width: 20%;
+    height: auto;
+    object-fit: cover; 
+    margin-left: 420px;
 }
