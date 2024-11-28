@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Flexfit</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <header>
@@ -21,11 +21,13 @@
     </div>
 </header>
 <nav>
-    <h1>Início</h1>
-    <h1>Sobre</h1>
-    <h1>Nossos produtos</h1>
-    <h1>Contato</h1>
-    <h1>Blog</h1>
+    <ul>
+        <a>Início</a>
+        <a href="#sobre-nos">Sobre nós</a>
+        <a href="#nossos-produtos">Nossos produtos</a>
+        <a>Contato</a>
+        <a>Blog</a>
+    </ul>
 </nav>
 <body>
     <main style="display: flex; padding-right: 0; flex-direction: column;">
@@ -35,21 +37,66 @@
             <h1 class="texto-frente-imagens">Superando limites, alcançando vitórias</h1>
             <h2 class="texto-frente-imagens2" style="font-style: italic;font-weight: 300;">– tudo o que você precisa para o seu melhor desempenho está aqui!</h2>
         </div>
-        <section class="sobre-nos">
+        <section id="sobre-nos">
             <h2>Sobre nós</h2>
             <h1>Seu desempenho é nossa<br>missão</h1>
             <div class="sobre-nos-content">
                 <div class="text-content">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu nibh ac nibh luctus aliquam. Phasellus varius tellus vel nunc condimentum 
-                        finibus. Sed vitae elit accumsan lacus dapibus facilisis et non mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam metus 
-                        erat, scelerisque non massa ac, tempus consequat ligula. Aliquam hendrerit diam ipsum, non eleifend eros imperdiet et. In varius tellus auctor 
-                        nulla condimentum, sed vulputate lectus aliquet. Sed nec lacus id lacus ornare.
+                        Na Fitlife, acreditamos que o esporte é mais do que movimento – é uma paixão que conecta pessoas, supera limites e transforma vidas. Desde o início, nosso objetivo tem sido oferecer artigos esportivos de alta qualidade que atendam às necessidades de atletas profissionais e entusiastas do esporte, ajudando-os a alcançar seu melhor desempenho.
+                        Trabalhamos com as marcas mais confiáveis do mercado, trazendo o que há de mais inovador em tecnologia e design. Aqui, você encontra tudo o que precisa para treinar, competir ou simplesmente viver uma vida ativa e saudável.
+                        Nosso compromisso vai além dos produtos: queremos inspirar e fazer parte da sua jornada esportiva. Seja correndo sua primeira maratona, treinando na academia ou jogando com amigos, estamos com você a cada passo, salto e conquista.
+                        <b>Seu desempenho é a nossa missão</b>. Vamos juntos superar limites e celebrar vitórias!
                     </p>
                 </div>
-                <img src="mulherbolsa.png" alt="mulher segurando uma bolsa" class="mulher-bolsa">
+                <div class="image-wrapper">
+                    <img src="mulherbolsa.png" alt="mulher segurando uma bolsa" class="mulher-bolsa">
+                </div>
             </div>
-        </section>        
+        </section>
+        <section id="nossos-produtos">
+            <h2>Futebol</h2>
+            <div class="card-container">
+                <div class="card">
+                    <div class="product-image"></div>
+                    <p style="color: #a8a9aa">Tênis</p>
+                    <p>R$XXX.XX no Pix</p>
+                    <button>Ver mais</button>
+                </div>
+                <div class="card">
+                    <div class="product-image"></div>
+                    <p style="color: #a8a9aa">Tênis</p>
+                    <p>R$XXX.XX no Pix</p>
+                    <button>Ver mais</button>
+                </div>
+                <div class="card">
+                    <div class="product-image"></div>
+                    <p style="color: #a8a9aa">Tênis</p>
+                    <p>R$XXX.XX no Pix</p>
+                    <button>Ver mais</button>
+                </div>
+                <br>
+                <div class="card">
+                    <div class="product-image"></div>
+                    <p style="color: #a8a9aa">Tênis</p>
+                    <p>R$XXX.XX no Pix</p>
+                    <button>Ver mais</button>
+                </div>
+                <div class="card">
+                    <div class="product-image"></div>
+                    <p style="color: #a8a9aa">Tênis</p>
+                    <p>R$XXX.XX no Pix</p>
+                    <button>Ver mais</button>
+                </div>
+                <div class="card">
+                    <div class="product-image"></div>
+                    <p style="color: #a8a9aa">Tênis</p>
+                    <p>R$XXX.XX no Pix</p>
+                    <button>Ver mais</button>
+                </div>
+            </div>
+        </section>
+                         
     </main>
 </body>
 </html>
