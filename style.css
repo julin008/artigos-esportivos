@@ -1,11 +1,13 @@
-html{
+html {
     scroll-behavior: smooth;
 }
+
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
     background-color: #2B2D42;
 }
+
 header {
     background-color: #EF233C;
     width: 100%;
@@ -14,11 +16,13 @@ header {
     justify-content: center;
     align-items: center;
 }
+
 .input-box {
     width: 100%;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
 }
+
 .box {
     width: 600px;
     background-color: #EDF2F4;
@@ -28,6 +32,7 @@ header {
     border-radius: 12px;
     padding: 10px;
 }
+
 .box input {
     width: 80%;
     background-color: #EDF2F4;
@@ -38,6 +43,7 @@ header {
     color: #A2A5A7;
     font-weight: 500;
 }
+
 .box .button {
     background: transparent;
     margin: 0px 12px;
@@ -45,18 +51,21 @@ header {
     height: 40px;
     border: none;
 }
+
 #logo {
     max-width: 250px;
     max-height: 250px;
     width: auto;
     height: auto;
 }
+
 nav {
     background-color: #EDF2F4;
     width: 100%;
     display: flex;
     justify-content: center;
 }
+
 nav a {
     font-weight: 500;
     margin: 0 30px;
@@ -65,31 +74,37 @@ nav a {
     cursor: pointer;
     text-decoration: none;
 }
+
 nav a:hover {
     color: #EF233C;
 }
+
 nav a {
     display: inline-block;
     transition: color 0.3s ease-in-out;
 }
+
 .lupa {
     max-width: 25px;
     max-height: 25px;
     width: auto;
     height: auto;
 }
-.mulher-tenis{
+
+.mulher-tenis {
     width: 999px;
     height: 900px;
     object-fit: cover;
     margin: 0;
 }
-.mulher-pulando{
+
+.mulher-pulando {
     width: 915px;
     height: 900px;
     object-fit: cover;
     margin-right: 0;
 }
+
 main {
     display: flex;
     flex-direction: column;
@@ -103,7 +118,8 @@ main {
     display: flex;
 }
 
-.mulher-tenis, .mulher-pulando {
+.mulher-tenis,
+.mulher-pulando {
     width: 100%;
     max-width: 1000px;
     object-fit: cover;
@@ -127,33 +143,37 @@ main {
     margin-left: 120px;
     margin-top: 370px;
 }
+
 #sobre-nos {
     padding: 40px;
     margin-top: 120px;
     margin-left: 120px;
 }
+
 #sobre-nos h2 {
     font-size: 20px;
     font-weight: 400;
     color: #EF233C;
 }
+
 #sobre-nos h1 {
     font-size: 32px;
     font-weight: 700;
     color: #ffffff;
     margin-bottom: 20px;
 }
+
 .sobre-nos-content {
     display: flex;
-    align-items: flex-start; 
+    align-items: flex-start;
     justify-content: space-between;
-    gap: 20px; 
-    flex-wrap: wrap; 
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .text-content {
     flex: 1;
-    max-width: 50%; 
+    max-width: 50%;
 }
 
 #sobre-nos p {
@@ -163,33 +183,35 @@ main {
     line-height: 1.6;
     text-align: justify;
 }
+
 .image-wrapper {
     flex: 0 0 auto;
-    position: relative; 
+    position: relative;
     display: flex;
-    justify-content: flex-end; 
+    justify-content: flex-end;
     margin-right: 120px;
 }
 
 .image-wrapper::before {
     content: "";
     position: absolute;
-    bottom: -30px; 
-    right: 230px; 
-    width: 200px; 
-    height: 200px; 
+    bottom: -30px;
+    right: 230px;
+    width: 200px;
+    height: 200px;
     background-color: #EF233C;
     z-index: 0;
     margin-bottom: 130px;
 }
 
 .mulher-bolsa {
-    position: relative; 
+    position: relative;
     z-index: 1;
     width: 400px;
     height: 550px;
     margin-bottom: 130px;
 }
+
 #nossos-produtos {
     padding: 40px;
     margin-top: 120px;
@@ -201,6 +223,7 @@ main {
     font-weight: 400;
     color: #EF233C;
 }
+
 .card-container {
     display: grid;
     grid-template-columns: repeat(5, 0fr);
@@ -214,7 +237,7 @@ main {
     padding: 20px;
     border-radius: 20px;
     width: 220px;
-    height: 300px; 
+    height: 300px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -225,14 +248,66 @@ main {
 .card .product-image {
     height: 60%;
     width: 100%;
-    background-image: url('tenis.png'); 
+    background-image: url('tenis.png');
     background-position: center;
     background-size: cover;
     margin-bottom: 15px;
 }
+
+#img-1 {
+    background-image: url('neymar.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#img-2 {
+    background-image: url('lionel.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#img-3 {
+    background-image: url('gabriel.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#img-4 {
+    background-image: url('guardiola.png');
+    background-position: center;
+    background-size: cover;
+}
+
+#img-5 {
+    background-image: url('cristiano.png');
+    background-position: center;
+    background-size: cover;
+}
+
+#img-6 {
+    background-image: url('mulheres.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#img-7 {
+    background-image: url('basquete.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#img-8 {
+    background-image: url('f1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+
+
 .card p {
     margin: 0;
 }
+
 .card button {
     font-family: poppins;
     font-size: 17px;
@@ -242,38 +317,44 @@ main {
     height: 45px;
     cursor: pointer;
 }
+
 .card button:hover {
     background-color: #bec1c2;
     color: #EDF2F4;
     transition: all 0.2s ease-in;
 }
-.card button:not(:hover){
+
+.card button:not(:hover) {
     background-color: #EDF2F4;
     transition: all 0.2s ease-in;
 }
+
 .card button:active {
     transform: scale(0.9);
 }
+
 .imagem-products {
-    position: relative; 
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 200px;
-    margin-top: -350px; 
+    margin-top: -350px;
     margin-left: 200px;
 }
+
 .homemolhandopchao {
     width: 477px;
     height: auto;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
 }
+
 .button-over-image {
     position: absolute;
-    bottom: 20px; 
+    bottom: 20px;
     left: 50%;
-    transform: translateX(-50%); 
+    transform: translateX(-50%);
     background-color: #EDF2F4;
     color: #2B2D42;
     padding: 10px 20px;
@@ -285,26 +366,33 @@ main {
     width: 170px;
     margin-bottom: 20px;
 }
-.button-over-image:hover{
+
+.button-over-image:hover {
     background-color: #EF233C;
     color: #EDF2F4;
     transition: all 0.2s ease-in;
     cursor: pointer;
 }
-.button-over-image:not(:hover){
+
+.button-over-image:not(:hover) {
     background-color: #EDF2F4;
     color: #2B2D42;
     transition: all 0.2s ease-in;
 }
+
 .form-contato {
     background-color: #EF233C;
-    width: 24%;
+    width: 30%;
     padding: 30px;
     color: #EDF2F4;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
+
 #h1cx {
     font-size: 30px;
 }
+
 input {
     display: flex;
     font-family: poppins;
@@ -316,6 +404,7 @@ input {
     padding: 0px 10px;
     background-color: #EDF2F4;
 }
+
 #mensagem {
     display: flex;
     font-family: poppins;
@@ -327,6 +416,7 @@ input {
     padding: 10px 10px;
     background-color: #EDF2F4;
 }
+
 #button-enviar {
     display: flex;
     width: 100px;
@@ -334,48 +424,57 @@ input {
     font-family: poppins;
     font-size: 18px;
 }
+
 #button-enviar:hover {
     background-color: white;
     color: #EF233C;
     transition: all 0.2s ease-in;
     cursor: pointer;
 }
+
 #button-enviar:active {
     transform: scale(0.85);
 }
+
 #button-enviar:not(:hover) {
     background-color: #EDF2F4;
     color: #EF233C;
     transition: all 0.2s ease-in;
 }
-#contato{
+
+#contato {
     display: flex;
     justify-content: center;
     padding: 40px;
     margin-top: 120px;
+    margin-right: 120px;
     margin-left: 120px;
     position: relative;
 }
+
 #contato h2 {
     font-size: 20px;
     font-weight: 400;
     color: #EF233C;
-    position: absolute;       /* Posiciona o h2 de forma fixa na seção */
-    top: 0;                   /* Fixado no topo da seção */
+    position: absolute;
+    top: 0;
     left: 0;
 }
-#blog{
+
+#blog {
     padding: 40px;
     margin-top: 120px;
     margin-left: 120px;
     margin-right: 120px;
 }
+
 #blog h2 {
     font-size: 20px;
     font-weight: 400;
     color: #EF233C;
 }
-.blogpesquisar{
+
+.blogpesquisar {
     display: flex;
     font-family: poppins;
     border: none;
@@ -390,6 +489,7 @@ input {
     margin-top: 80px;
     margin-bottom: 80px;
 }
+
 #enviar-blog {
     display: flex;
     width: 200px;
@@ -398,27 +498,32 @@ input {
     font-size: 18px;
     height: 60px;
 }
+
 #enviar-blog:hover {
     background-color: white;
     color: #EF233C;
     transition: all 0.2s ease-in;
     cursor: pointer;
 }
+
 #enviar-blog:active {
     transform: scale(0.85);
 }
+
 #enviar-blog:not(:hover) {
     background-color: #EF233C;
     color: #EDF2F4;
     transition: all 0.2s ease-in;
 }
+
 .input-container {
-    display: flex; 
-    align-items: center; 
-    gap: 10px; 
+    display: flex;
+    align-items: center;
+    gap: 10px;
     margin-left: 400px;
 }
-.continuar-lendo{
+
+.continuar-lendo {
     display: flex;
     width: 230px;
     border-radius: 10px;
@@ -431,40 +536,59 @@ input {
     justify-content: center;
     align-items: center;
 }
+
 .continuar-lendo:hover {
     background-color: white;
     color: #EF233C;
     transition: all 0.2s ease-in;
     cursor: pointer;
 }
+
 .continuar-lendo:active {
     transform: scale(0.85);
 }
+
 .continuar-lendo:not(:hover) {
     background-color: #EF233C;
     color: #EDF2F4;
     transition: all 0.2s ease-in;
 }
-.quadrado{
+
+.quadrado {
     background-color: #EDF2F4;
     height: 150px;
     width: 230px;
     border-radius: 10px;
 }
-.italico-verm{
+
+.italico-verm {
     font-size: 11px;
 }
+
 .cardblog-container {
     display: grid;
     grid-template-columns: repeat(5, 0fr);
     gap: 20px;
     margin-top: 20px;
 }
-.card-blog{
+
+.card-blog {
     margin-left: 20px;
     margin-bottom: 20px;
 }
-.blog-container{
+
+.blog-container {
     display: flex;
     justify-content: center;
+}
+
+footer {
+    background-color: #EF233C;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: poppins;
+    color: #EDF2F4;
 }
